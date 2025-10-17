@@ -31,7 +31,7 @@ except ValueError as e:
 print("📋 Configuration Summary:")
 config_summary = Config.get_config_summary()
 for key, value in config_summary.items():
-    print(f"   {key}: {value}")
+    print(f"    {key}: {value}")
 print()
 
 # Run the app
